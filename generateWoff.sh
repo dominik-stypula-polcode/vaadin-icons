@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npx gulp icons iconfont && \
+npx gulp icons iconfont;
 base64 --wrap=0 vaadin-icons.woff2 > vaadin-icons.base64;
 echo "Copy vaadin-icons.base64 contents and paste to @font-face like this:";
 echo "";
