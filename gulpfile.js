@@ -14,9 +14,12 @@ const sort = require('gulp-sort');
 const vaadinIconFontData = require('./assets/vaadin-font-icons.json');
 
 const cxlVaadinIconset = [
+  'book.svg',
   'check-circle.svg',
+  'comment.svg',
   'play-circle-o.svg',
   'quote-right.svg',
+  'star.svg'
 ];
 
 /**
