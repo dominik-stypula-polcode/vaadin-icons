@@ -7,6 +7,22 @@
 [![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/vaadinvaadin-icons)
 [![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/vaadinvaadin-icons.svg)](https://vaadin.com/directory/component/vaadinvaadin-icons)
 
+# Steps to add an icon
+1. Go to `gulpfile.js` and adjust the variable adding/removing positions:
+```js
+const cxlVaadinIconset = [
+  'book.svg',
+  'check-circle.svg',
+  'comment.svg',
+  'play-circle-o.svg',
+  'quote-right.svg',
+  'star.svg'
+];
+```
+2. Run `./generateIconsAndWoff.sh` task in terminal
+3. `iconset.html` should be updated - copy new positions from it
+4. copy `src: .... format("woff2");` string from terminal and paste in your project to the `@font-face` declaration (`icons.js` file)
+
 # Vaadin Icons
 
 [<img src="https://raw.github.com/vaadin/vaadin-icons/master/screenshot.png" width="611" alt="Screenshot of some icons in the Vaadin Icons collection" />](https://vaadin.com/icons)
