@@ -19,7 +19,11 @@ const cxlVaadinIconset = [
   'comment.svg',
   'play-circle-o.svg',
   'quote-right.svg',
-  'star.svg'
+  'star.svg',
+  'thumbs-up.svg',
+  'thumbs-up-o.svg',
+  'thumbs-down.svg',
+  'thumbs-down-o.svg'
 ];
 
 /**
